@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=>, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       *{ /*selecciono todos los elementos y elimino su pading ssu margin nativos*/
+        margin: 0%;
+        padding: 0%;
+       }
+
+       h1{
+           /*arriba es = top - abajo es = bottom- derecha es = right- izquierda es = left*/
+           border :  3px solid red; /* tamaño en pixeles - tipo de borde - color */
+            
+            /* margen interior*/
+            padding: 20px ;
+           /*margen externo*/
+            margin: 35px;
+        }
+        .container{
+            display: flex;
+            justify-content: center; /*left- center- right*/
+        }
+        .caja{
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1>RIVER PLATE</h1>
+    <div class="container">
+        <div class="caja"></div>
+    </div>
+</body>
+</html>
